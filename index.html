@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>Coding Examination | Alwin Rivera</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="sass/style.css">
+	</head>
+	<body id="home">
+		<!-- 
+		1- HEADER
+		2- SLIDESHOW
+		3- ARTICLES
+		4- ASIDE
+		5- CLEARFIX
+		6- UP ARROW 
+		7- FOOTER
+		8- SLIDESHOW SCRIPT
+		 -->
+
+		<!--1- HEADER CONTAINER-->
+		<header class="text-center">
+			<a href="#home"><img src="assets/images/websiteLogo.png" alt="Website Logo" title="Website Logo" width="256" height="80"></a>
+		</header>
+		<!--/ HEADER CONTAINER-->
+
+		<!--2- SLIDESHOW CONTAINER-->
+		<main class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="assets/images/slideshowImage1.jpg" style="width:100%">
+				<div class="text text-center">
+					<h1>キャッチコピーが入ります。</h1>
+					<h2><small>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br>
+					サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</small></h2>
+				</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="assets/images/slideshowImage2.jpg" style="width:100%">
+				<div class="text text-center">
+					<h1>キャッチコピーが入ります。</h1>
+					<h2><small>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br>
+					サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</small></h2>
+				</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="assets/images/slideshowImage3.jpg" style="width:100%">
+				<div class="text text-center">
+					<h1>キャッチコピーが入ります。</h1>
+					<h2><small>サンプルテキストサンプルテキストサンプルテキストサンプルテキスト<br>
+					サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</small></h2>
+				</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="pageIndicator">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</main>
+		<!--/ SLIDESHOW CONTAINER-->
+		<br>
+
+		<!--3- ARTICLES CONTAINER-->
+		<section class="container text-center" id="articles">
+			<div class="row">
+				<!-- ARTICLES SECTION -->
+				<section class="col-lg-8">
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+						</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<p class="date">2016.01.01</p>
+									<h3>サンプルテキストサンプルテキストサンプルテキストサン<br>プルテキストサンプルテキスト</h3>
+									<p class="subText">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテ<br>キストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト…</p>
+								</div>
+							</a>
+					</article>
+					<br>
+					<a href="#">
+						<button class="text-center" id="articleButton">
+							More 
+							<span style="">&#10095;</span>
+						</button>
+					</a>
+				</section>
+				<!--/ ARTICLES SECTION-->
+
+				<!--4- ASIDE CONTAINER-->
+				<aside class="col-lg-4 container text-center bg-grey">
+					<div class="row">
+						<a href="#">
+							<section>
+								<img src="assets/images/dummyBanner.png" width="296" height="296" alt="Dummy Banner">
+							</section>
+						</a>
+						<h2>Recommend</h2>
+						<hr />
+						<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<h3>サンプルテキストサンプルテ<br>キストサンプルテキストサン<br>プルテキスト</h3>
+									<p class="date">2016.03.26</p>
+								</div>
+							</a>
+						</article>
+						<br>
+						<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<h3>サンプルテキストサンプルテ<br>キストサンプルテキストサン<br>プルテキスト</h3>
+									<p class="date">2016.03.26</p>
+								</div>
+							</a>
+						</article>
+						<br>
+						<article>
+							<a href="#">
+								<div class="articleImage"></div>
+								<div class="articleInfo text-left">
+									<h3>サンプルテキストサンプルテ<br>キストサンプルテキストサン<br>プルテキスト</h3>
+									<p class="date">2016.03.26</p>
+								</div>
+							</a>
+						</article>
+						<br>
+						<section>
+							<a href="#">
+								<img src="assets/images/dummyBanner2.png" width="296" height="77" alt="Dummy Banner">
+							</a>
+							<a href="#">
+								<img src="assets/images/dummyBanner2.png" width="296" height="77" alt="Dummy Banner">
+							</a>
+							<a href="#">
+								<img src="assets/images/dummyBanner2.png" width="296" height="77" alt="Dummy Banner">
+							</a>
+						</section>
+					</div>
+				</aside>
+				<!-- ASIDE CONTAINER-->
+			</div>
+		</section>
+		<!--/ ARTICLES CONTAINER-->
+
+		<!--5- CLEAR FIX -->
+		<div class="clearFix"></div>
+		<!-- CLEAR FIX -->
+
+		<!--6- UP ARROW -->
+		<a href="#home"><i id="upArrow" style=""></i></a>
+		<!--/ UP ARROW -->
+
+		<!--7- FOOTER CONTAINER-->
+		<footer class="container-fluid">
+			<a href="#"><h6 class="pull-left footerLink1">運営会社</h6></a>
+			<a href="#"><h6 class="pull-left footerLink2">個人情報保護について</h6></a>
+			<h6 class="pull-right">©2016 Sample</h6>
+		</footer>
+		<!--/ FOOTER CONTAINER-->
+		
+		<!-- 8- SLIDESHOW SCRIPT -->
+		<script src="js/slideShowScript.js"></script>
+		<!--/ SLIDESHOW SCRIPT -->
+	</body>
+</html>
